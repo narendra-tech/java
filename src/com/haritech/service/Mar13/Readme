@@ -1,0 +1,9 @@
+
+//operators
+
+1).airthametic operatorts => +, -, *, /, %
+2).relational operators => >, <, >= <=, !=, ==
+3).logical operators => &&, ||, !
+4).unary operators => ++, --, +=, -=
+5).bitwise operators => &, |,
+6).shift operators => <<, >>, <<<, >>>,......
