@@ -24,8 +24,10 @@ public class Test {
         int arr8[][] = {};
         int[] []arr9 = {};
 
-        //jamby array.
+        //jagged array.
         int[][] arr10 = new int[2][];
+        arr10[0] = new int[4];
+        arr10[1] = new int[3];
         arr10[0][0] = 10;
         arr10[0][1] = 20;
         arr10[0][2] = 30;
@@ -34,6 +36,8 @@ public class Test {
         arr10[1][0] = 50;
         arr10[1][1] = 60;
         arr10[1][2] = 70;
+
+        System.out.println("data is::"+arr10[0][3]);
 
         //insert the data into 2 -dimenstion array using for loop.
 
