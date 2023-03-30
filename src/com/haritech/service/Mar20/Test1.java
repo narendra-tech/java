@@ -20,9 +20,9 @@ public class Test1 extends Sample{
     //static, abstract, final.
     //public, private, protect, default.
 
-    static void add(int a, int b){
-        System.out.println(a+b);
-    }
+//    static void add(int a, int b){
+//        System.out.println(a+b);
+//    }
     //constant
     final static int a = 10;
     public static void main(String args[]){
