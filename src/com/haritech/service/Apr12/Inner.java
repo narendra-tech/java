@@ -12,6 +12,10 @@ class InnerEx {
             System.out.println(a);
         }
     }
+    public InnerEx.Test getObject(){
+        return this.new Test();
+    }
+
 }
 
 public class Inner{
