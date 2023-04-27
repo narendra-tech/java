@@ -24,9 +24,9 @@ class Student extends Object{
 public class LinkedListE {
     public static void main(String args[]){
         //List with custom objects.
-//        List<Student> l = new ArrayList<>();
-//        l.add(new Student(1,"vedansh", 90));
-//        l.add(new Student(2,"venkatesh", 92));
+        List<Student> l = new ArrayList<>();
+        l.add(new Student(1,"vedansh", 90));
+        l.add(new Student(2,"venkatesh", 92));
 //        Student st = new Student(3,"venki", 95);
 //        l.add(st);
 //        Student st2 = new Student(3,"venki", 95);
@@ -34,6 +34,7 @@ public class LinkedListE {
 //
 //        System.out.println("elements is::"+l.size());
         LinkedList<String> ll = new LinkedList<>();
+
         ll.addFirst("Orange");
         ll.addFirst("Apple");
         ll.addLast("watermileon");
