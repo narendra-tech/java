@@ -1,0 +1,14 @@
+
+1). how to remove duplicate elements in List
+2). how many duplicate elements
+[10,20,10,30,10,20,10] => {10:4,20:2,30:1}
+3). how to reverse the List
+4). sort the elements.
+[{"name":"narendra","age":14,"marks":100},
+ {"name":"Vedansh","age":18,"marks":10},
+ {"name":"Ramesh","age":30,"marks":50}]
+
+ //based on marks
+ //based on age
+ //based on name.
+
