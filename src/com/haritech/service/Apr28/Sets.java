@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Set;
 import java.util.TreeSet;
 
-class Student{
+class Student implements Comparable<Student>{
     int id;
     String name;
     int marks;
@@ -15,6 +15,21 @@ class Student{
         this.name = name;
         this.marks = marks;
         this.className = className;
+    }
+
+    public String toString(){
+        return this.name + ":" + this.marks;
+    }
+
+    @Override
+    public int compareTo(Student student) {
+        if(this.marks > student.marks){
+            return 1;
+        }else if(this.marks < student.marks){
+            return -1;
+        }else{
+            return 0;
+        }
     }
 }
 
@@ -57,8 +72,19 @@ public class Sets {
         tss.add(st1);
         tss.add(st2);
         tss.add(st3);
+        System.out.println("treeset is::"+tss);
 
-        System.out.println(tss);
+        TreeSet<Float> tf = new TreeSet<>();
+        tf.add(10.32f);
+        tf.add(10.12f);
+        tf.add(10.45f);
+        tf.add(10.09f);
+        tf.add(10.46f);
+
+        System.out.println("floor::"+tf.floor(10.46f));
+        System.out.println("celining::"+tf.ceiling(10.32f));
+
+
 
     }
 
