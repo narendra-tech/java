@@ -21,7 +21,7 @@ public class NonFunInf {
         List<String> fruits = new ArrayList<>();
         fruits.add("orange");
         fruits.add("bananna");
-        
+
         fruits.add("apple");
         fruits.add("jack");
 
